@@ -1,0 +1,64 @@
+body{
+    background-color:aliceblue ;
+}
+
+.taskDone{
+    text-decoration: line-through;
+    font-style: italic;
+    background-color: rgb(233, 230, 230);
+}
+
+#headerToDo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+#tasksTable{
+    width: 60%;
+    height: auto;
+    border: 1px solid rgb(101, 101, 101);
+    border-collapse: collapse;
+}
+
+#viewTasks{
+    border: 1px solid rgb(162, 162, 162);
+    border-collapse: collapse;
+
+}
+
+#scopeStat{
+    width:60px;
+    height: auto;
+}
+
+#scopeTask{
+    width:40%;
+    height: auto;  
+}
+
+#scopeNotes{
+    width: 35%;
+    height: auto;
+}
+
+#inputDiv{
+  margin-left: 300px;
+  margin-right: auto; 
+  block-size: 40px;
+  width: 60%;
+  height: auto;
+}
+
+#outputDiv{
+  width: 100%;
+  margin-left: 300px;
+  margin-right: auto;
+}
+
+#header{
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 88px;
+    text-align: center;
+}
